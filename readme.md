@@ -10,7 +10,7 @@ Python 3.6.9
 
 Linux
 
-## For user
+## For use
 
 ```bash
 $ pip3 install virtualenv
@@ -20,6 +20,8 @@ $ python reserve_timer.py &
 ```
 
 ## 文件说明
+
+
 
 ├─Shuttle_reservation
 │      config.ini 配置文件，主要是你的证件号和密码，默认密码为111111
