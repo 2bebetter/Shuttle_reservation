@@ -22,8 +22,7 @@ $ nohup python ./reserve_timer.py &
 
 ## 文件说明
 
-
-
+```sh
 ├─Shuttle_reservation
 │      config.ini 配置文件，主要是你的证件号和密码，默认密码为111111
 │      crypto.py 加解密功能
@@ -32,4 +31,4 @@ $ nohup python ./reserve_timer.py &
 │      requirements.txt
 │      reserve.py 预约班车
 │      reserve_timer.py 定期触发班车预约功能
-
+```
