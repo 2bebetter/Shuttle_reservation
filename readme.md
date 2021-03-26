@@ -15,8 +15,9 @@ Linux
 ```bash
 $ pip3 install virtualenv
 $ virtualenv resenv --python=python3.6
+$ source resenv/bin/activate
 $ pip install -r requirements.txt -i https://pypi.douban.com/simple
-$ python reserve_timer.py &
+$ nohup python ./reserve_timer.py &
 ```
 
 ## 文件说明
